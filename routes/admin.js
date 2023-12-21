@@ -15,6 +15,9 @@ router.get("/add-product", (req, res, next) => {
   res.render("add-product", {
     docTile: "Add Products",
     path: "/admin/add-product",
+    activeProduct: true,
+    productCSS: true,
+    formCSS: true,
   });
 });
 
